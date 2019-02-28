@@ -1314,6 +1314,10 @@ owl:Thing rdf:type owl:Class .
 :brain rdf:type owl:NamedIndividual .
 
 
+###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier-individuals.owl#heart
+:heart rdf:type owl:NamedIndividual .
+
+
 ###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier-individuals.owl#liver
 :liver rdf:type owl:NamedIndividual .
 
