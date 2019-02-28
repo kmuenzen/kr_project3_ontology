@@ -1286,6 +1286,30 @@ owl:Thing rdf:type owl:Class .
 #    Individuals
 #################################################################
 
+###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier-individuals.owl#Tsize1a
+:Tsize1a rdf:type owl:NamedIndividual .
+
+
+###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier-individuals.owl#Tsize2a
+:Tsize2a rdf:type owl:NamedIndividual .
+
+
+###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier-individuals.owl#Tsize2b
+:Tsize2b rdf:type owl:NamedIndividual .
+
+
+###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier-individuals.owl#Tsize3a
+:Tsize3a rdf:type owl:NamedIndividual .
+
+
+###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier-individuals.owl#Tsize3b
+:Tsize3b rdf:type owl:NamedIndividual .
+
+
+###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier-individuals.owl#Tsize4
+:Tsize4 rdf:type owl:NamedIndividual .
+
+
 ###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier-individuals.owl#brain
 :brain rdf:type owl:NamedIndividual .
 
