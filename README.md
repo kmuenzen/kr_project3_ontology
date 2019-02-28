@@ -1,1 +1,1 @@
-# kr_project3_ontology
+Shared ontology for Knowledge Representation Project 3
