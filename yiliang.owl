@@ -41,6 +41,13 @@ tnm-lung-olivier:hasMetastasis rdf:type owl:ObjectProperty ;
                                rdfs:range tnm-lung-olivier:Metastasis .
 
 
+<<<<<<< HEAD
+###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier.owl#hasMetastasisIn
+tnm-lung-olivier:hasMetastasisIn rdf:type owl:ObjectProperty .
+
+
+=======
+>>>>>>> d787ebaa0ff1a78d6f1ac144885a1ba959ecb0d7
 ###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier.owl#hasPrimaryTumour
 tnm-lung-olivier:hasPrimaryTumour rdf:type owl:ObjectProperty ;
                                   rdfs:range tnm-lung-olivier:PrimaryTumour .
@@ -74,6 +81,13 @@ tnm-lung-olivier:isMetastasisOf rdf:type owl:ObjectProperty ,
 tnm-lung-olivier:Size rdf:type owl:DatatypeProperty .
 
 
+<<<<<<< HEAD
+###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier.owl#hasDistanceMetastasis
+tnm-lung-olivier:hasDistanceMetastasis rdf:type owl:DatatypeProperty .
+
+
+=======
+>>>>>>> d787ebaa0ff1a78d6f1ac144885a1ba959ecb0d7
 ###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier.owl#hasTheMetastasis
 tnm-lung-olivier:hasTheMetastasis rdf:type owl:DatatypeProperty .
 
@@ -567,7 +581,11 @@ tnm-lung-olivier:M0 rdf:type owl:Class ;
 
 ###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier.owl#M0Rule
 tnm-lung-olivier:M0Rule rdf:type owl:Class ;
+<<<<<<< HEAD
+                        rdfs:subClassOf tnm-lung-olivier:LungCancerDiagnosis .
+=======
                         rdfs:subClassOf tnm-lung-olivier:M0 .
+>>>>>>> d787ebaa0ff1a78d6f1ac144885a1ba959ecb0d7
 
 
 ###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier.owl#M1
@@ -685,6 +703,14 @@ tnm-lung-olivier:N2 rdf:type owl:Class ;
                     rdfs:subClassOf tnm-lung-olivier:LungCancerDiagnosis .
 
 
+<<<<<<< HEAD
+###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier.owl#N2Rule
+tnm-lung-olivier:N2Rule rdf:type owl:Class ;
+                        rdfs:subClassOf tnm-lung-olivier:LungCancerDiagnosis .
+
+
+=======
+>>>>>>> d787ebaa0ff1a78d6f1ac144885a1ba959ecb0d7
 ###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier.owl#N3
 tnm-lung-olivier:N3 rdf:type owl:Class ;
                     owl:equivalentClass [ owl:intersectionOf ( tnm-lung-olivier:LungCancerDiagnosis
@@ -698,6 +724,14 @@ tnm-lung-olivier:N3 rdf:type owl:Class ;
                     rdfs:subClassOf tnm-lung-olivier:LungCancerDiagnosis .
 
 
+<<<<<<< HEAD
+###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier.owl#N3Rule
+tnm-lung-olivier:N3Rule rdf:type owl:Class ;
+                        rdfs:subClassOf tnm-lung-olivier:LungCancerDiagnosis .
+
+
+=======
+>>>>>>> d787ebaa0ff1a78d6f1ac144885a1ba959ecb0d7
 ###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier.owl#ParietalPericardium
 tnm-lung-olivier:ParietalPericardium rdf:type owl:Class ;
                                      rdfs:subClassOf tnm-lung-olivier:AnatomicalStructure ;
@@ -1003,6 +1037,14 @@ tnm-lung-olivier:Stage3B rdf:type owl:Class ;
                          rdfs:subClassOf tnm-lung-olivier:StagedLungCancer .
 
 
+<<<<<<< HEAD
+###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier.owl#Stage3BRule
+tnm-lung-olivier:Stage3BRule rdf:type owl:Class ;
+                             rdfs:subClassOf tnm-lung-olivier:StagedLungCancer .
+
+
+=======
+>>>>>>> d787ebaa0ff1a78d6f1ac144885a1ba959ecb0d7
 ###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier.owl#Stage4
 tnm-lung-olivier:Stage4 rdf:type owl:Class ;
                         rdfs:subClassOf tnm-lung-olivier:StagedLungCancer .
@@ -1289,6 +1331,30 @@ owl:Thing rdf:type owl:Class .
 #    Individuals
 #################################################################
 
+<<<<<<< HEAD
+###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier.owl#InLeftMediastinalMetastasis
+tnm-lung-olivier:InLeftMediastinalMetastasis rdf:type owl:NamedIndividual ;
+                                             tnm-lung-olivier:locatedAt "MediastinalLymphNode" .
+
+
+###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier.owl#LeftMediastinalMetastasis3
+tnm-lung-olivier:LeftMediastinalMetastasis3 rdf:type owl:NamedIndividual ;
+                                            tnm-lung-olivier:locatedAt "LeftAnatomicalStructure"^^xsd:string .
+
+
+###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier.owl#Metastasis-Stage3A-test2
+tnm-lung-olivier:Metastasis-Stage3A-test2 rdf:type owl:NamedIndividual ;
+                                          tnm-lung-olivier:hasMetastasisIn tnm-lung-olivier:InLeftMediastinalMetastasis .
+
+
+###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier.owl#Metastasis-Stage3B-test3
+tnm-lung-olivier:Metastasis-Stage3B-test3 rdf:type owl:NamedIndividual ;
+                                          tnm-lung-olivier:isMetastasisOf tnm-lung-olivier:LeftMediastinalMetastasis3 ;
+                                          tnm-lung-olivier:locatedAt "RightAnatomicalStructure" .
+
+
+=======
+>>>>>>> d787ebaa0ff1a78d6f1ac144885a1ba959ecb0d7
 ###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier.owl#P-Stage3A-test1
 tnm-lung-olivier:P-Stage3A-test1 rdf:type owl:NamedIndividual ,
                                           tnm-lung-olivier:InvasiveEsophagialLungTumorNoMets ;
@@ -1301,6 +1367,18 @@ tnm-lung-olivier:P-Stage3A-test2 rdf:type owl:NamedIndividual ,
                                  tnm-lung-olivier:hasPrimaryTumour tnm-lung-olivier:Tumor-Stage3A-test2 .
 
 
+<<<<<<< HEAD
+###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier.owl#P-Stage3A-test3
+tnm-lung-olivier:P-Stage3A-test3 rdf:type owl:NamedIndividual .
+
+
+###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier.owl#RightMediastinalMetastasis3
+tnm-lung-olivier:RightMediastinalMetastasis3 rdf:type owl:NamedIndividual ;
+                                             tnm-lung-olivier:locatedAt "RightAnatomicalStructure"^^xsd:string .
+
+
+=======
+>>>>>>> d787ebaa0ff1a78d6f1ac144885a1ba959ecb0d7
 ###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier.owl#Tumor-Stage3A-test1
 tnm-lung-olivier:Tumor-Stage3A-test1 rdf:type owl:NamedIndividual ,
                                               tnm-lung-olivier:Tumour ;
@@ -1312,7 +1390,20 @@ tnm-lung-olivier:Tumor-Stage3A-test1 rdf:type owl:NamedIndividual ,
 ###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier.owl#Tumor-Stage3A-test2
 tnm-lung-olivier:Tumor-Stage3A-test2 rdf:type owl:NamedIndividual ,
                                               tnm-lung-olivier:Tumour ;
+<<<<<<< HEAD
+                                     tnm-lung-olivier:hasMetastasisIn tnm-lung-olivier:Metastasis-Stage3A-test2 ;
+                                     tnm-lung-olivier:Size "5cm7cm"^^xsd:string ;
+                                     tnm-lung-olivier:hasDistanceMetastasis "Null" .
+
+
+###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier.owl#Tumor-Stage3A-test3
+tnm-lung-olivier:Tumor-Stage3A-test3 rdf:type owl:NamedIndividual ,
+                                              tnm-lung-olivier:Tumour ;
+                                     tnm-lung-olivier:hasMetastasisIn tnm-lung-olivier:Metastasis-Stage3B-test3 ;
+                                     tnm-lung-olivier:hasDistanceMetastasis "Null"^^xsd:string .
+=======
                                      tnm-lung-olivier:Size 6 .
+>>>>>>> d787ebaa0ff1a78d6f1ac144885a1ba959ecb0d7
 
 
 ###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier.owl#left
@@ -1345,12 +1436,31 @@ tnm-lung-olivier:right rdf:type owl:NamedIndividual ,
 
 <urn:swrl:var#T> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
 
+<<<<<<< HEAD
+<urn:swrl:var#M> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<urn:swrl:var#M2> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<urn:swrl:var#L> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<urn:swrl:var#M1> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<urn:swrl:var#L1> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<urn:swrl:var#L2> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<urn:swrl:var#S> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<urn:swrl:var#DM> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+=======
 <urn:swrl:var#S> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
 
 <urn:swrl:var#M> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
 
 <urn:swrl:var#L> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
 
+>>>>>>> d787ebaa0ff1a78d6f1ac144885a1ba959ecb0d7
 [ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
    <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
                                            rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
@@ -1393,6 +1503,192 @@ tnm-lung-olivier:right rdf:type owl:NamedIndividual ,
                                                        <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#T>
                                                      ] ;
                                            rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+<<<<<<< HEAD
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#classPredicate> tnm-lung-olivier:N2Rule ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#T>
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#classPredicate> tnm-lung-olivier:M0Rule ;
+                                                                             <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#T>
+                                                                           ] ;
+                                                                 rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                            rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                                                        <http://www.w3.org/2003/11/swrl#classPredicate> tnm-lung-olivier:T2Rule ;
+                                                                                        <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#T>
+                                                                                      ] ;
+                                                                            rdf:rest rdf:nil
+                                                                          ]
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> tnm-lung-olivier:Stage3ARule ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#T>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> tnm-lung-olivier:Tumour ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#T>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#classPredicate> tnm-lung-olivier:N3Rule ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#T>
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#classPredicate> tnm-lung-olivier:M0Rule ;
+                                                                             <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#T>
+                                                                           ] ;
+                                                                 rdf:rest rdf:nil
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> tnm-lung-olivier:Stage3BRule ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#T>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> tnm-lung-olivier:Tumour ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#T>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> tnm-lung-olivier:hasMetastasisIn ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#T> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#M>
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#propertyPredicate> tnm-lung-olivier:hasMetastasisIn ;
+                                                                             <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#M> ;
+                                                                             <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#M2>
+                                                                           ] ;
+                                                                 rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                            rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
+                                                                                        <http://www.w3.org/2003/11/swrl#propertyPredicate> tnm-lung-olivier:locatedAt ;
+                                                                                        <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#M2> ;
+                                                                                        <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#L>
+                                                                                      ] ;
+                                                                            rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                                       rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
+                                                                                                   <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase> ;
+                                                                                                   <http://www.w3.org/2003/11/swrl#arguments> [ rdf:type rdf:List ;
+                                                                                                                                                rdf:first <urn:swrl:var#L> ;
+                                                                                                                                                rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                                           rdf:first "MediastinalLymphNode" ;
+                                                                                                                                                           rdf:rest rdf:nil
+                                                                                                                                                         ]
+                                                                                                                                              ]
+                                                                                                 ] ;
+                                                                                       rdf:rest rdf:nil
+                                                                                     ]
+                                                                          ]
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> tnm-lung-olivier:N2Rule ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#T>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> tnm-lung-olivier:Tumour ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#T>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> tnm-lung-olivier:hasMetastasisIn ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#T> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#M1>
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#propertyPredicate> tnm-lung-olivier:isMetastasisOf ;
+                                                                             <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#M1> ;
+                                                                             <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#M2>
+                                                                           ] ;
+                                                                 rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                            rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
+                                                                                        <http://www.w3.org/2003/11/swrl#propertyPredicate> tnm-lung-olivier:locatedAt ;
+                                                                                        <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#M1> ;
+                                                                                        <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#L1>
+                                                                                      ] ;
+                                                                            rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                                       rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
+                                                                                                   <http://www.w3.org/2003/11/swrl#propertyPredicate> tnm-lung-olivier:locatedAt ;
+                                                                                                   <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#M2> ;
+                                                                                                   <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#L2>
+                                                                                                 ] ;
+                                                                                       rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                                                  rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
+                                                                                                              <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase> ;
+                                                                                                              <http://www.w3.org/2003/11/swrl#arguments> [ rdf:type rdf:List ;
+                                                                                                                                                           rdf:first <urn:swrl:var#L1> ;
+                                                                                                                                                           rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                                                      rdf:first "RightAnatomicalStructure" ;
+                                                                                                                                                                      rdf:rest rdf:nil
+                                                                                                                                                                    ]
+                                                                                                                                                         ]
+                                                                                                            ] ;
+                                                                                                  rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                                                             rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
+                                                                                                                         <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase> ;
+                                                                                                                         <http://www.w3.org/2003/11/swrl#arguments> [ rdf:type rdf:List ;
+                                                                                                                                                                      rdf:first <urn:swrl:var#L2> ;
+                                                                                                                                                                      rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                                                                 rdf:first "LeftAnatomicalStructure" ;
+                                                                                                                                                                                 rdf:rest rdf:nil
+                                                                                                                                                                               ]
+                                                                                                                                                                    ]
+                                                                                                                       ] ;
+                                                                                                             rdf:rest rdf:nil
+                                                                                                           ]
+                                                                                                ]
+                                                                                     ]
+                                                                          ]
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> tnm-lung-olivier:N3Rule ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#T>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> tnm-lung-olivier:Tumour ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#T>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+=======
+>>>>>>> d787ebaa0ff1a78d6f1ac144885a1ba959ecb0d7
                                                       rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
                                                                   <http://www.w3.org/2003/11/swrl#propertyPredicate> tnm-lung-olivier:Size ;
                                                                   <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#T> ;
@@ -1400,11 +1696,12 @@ tnm-lung-olivier:right rdf:type owl:NamedIndividual ,
                                                                 ] ;
                                                       rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
                                                                  rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
-                                                                             <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> ;
+<<<<<<< HEAD
+                                                                             <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase> ;
                                                                              <http://www.w3.org/2003/11/swrl#arguments> [ rdf:type rdf:List ;
                                                                                                                           rdf:first <urn:swrl:var#S> ;
                                                                                                                           rdf:rest [ rdf:type rdf:List ;
-                                                                                                                                     rdf:first 0 ;
+                                                                                                                                     rdf:first "5cm7cm" ;
                                                                                                                                      rdf:rest rdf:nil
                                                                                                                                    ]
                                                                                                                         ]
@@ -1415,7 +1712,54 @@ tnm-lung-olivier:right rdf:type owl:NamedIndividual ,
                                          ] ;
    <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
                                            rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> tnm-lung-olivier:T2Rule ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#T>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> tnm-lung-olivier:Tumour ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#T>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> tnm-lung-olivier:hasDistanceMetastasis ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#T> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#DM>
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase> ;
+                                                                             <http://www.w3.org/2003/11/swrl#arguments> [ rdf:type rdf:List ;
+                                                                                                                          rdf:first <urn:swrl:var#DM> ;
+                                                                                                                          rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                     rdf:first "Null" ;
+=======
+                                                                             <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> ;
+                                                                             <http://www.w3.org/2003/11/swrl#arguments> [ rdf:type rdf:List ;
+                                                                                                                          rdf:first <urn:swrl:var#S> ;
+                                                                                                                          rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                     rdf:first 0 ;
+>>>>>>> d787ebaa0ff1a78d6f1ac144885a1ba959ecb0d7
+                                                                                                                                     rdf:rest rdf:nil
+                                                                                                                                   ]
+                                                                                                                        ]
+                                                                           ] ;
+                                                                 rdf:rest rdf:nil
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+<<<<<<< HEAD
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> tnm-lung-olivier:M0Rule ;
+=======
                                                        <http://www.w3.org/2003/11/swrl#classPredicate> tnm-lung-olivier:T4Rule ;
+>>>>>>> d787ebaa0ff1a78d6f1ac144885a1ba959ecb0d7
                                                        <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#T>
                                                      ] ;
                                            rdf:rest rdf:nil
