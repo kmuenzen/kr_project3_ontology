@@ -984,16 +984,9 @@ tnm-lung-olivier:Stage3ARule rdf:type owl:Class ;
 tnm-lung-olivier:Stage3B rdf:type owl:Class ;
                          owl:equivalentClass [ owl:intersectionOf ( tnm-lung-olivier:M0
                                                                     [ rdf:type owl:Class ;
-                                                                      owl:unionOf ( [ owl:intersectionOf ( tnm-lung-olivier:N2
+                                                                      owl:unionOf ( tnm-lung-olivier:N3
+                                                                                    [ owl:intersectionOf ( tnm-lung-olivier:N2
                                                                                                            tnm-lung-olivier:T4
-                                                                                                         ) ;
-                                                                                      rdf:type owl:Class
-                                                                                    ]
-                                                                                    [ owl:intersectionOf ( tnm-lung-olivier:N3
-                                                                                                           [ rdf:type owl:Restriction ;
-                                                                                                             owl:onProperty tnm-lung-olivier:hasPrimaryTumour ;
-                                                                                                             owl:someValuesFrom tnm-lung-olivier:PrimaryTumour
-                                                                                                           ]
                                                                                                          ) ;
                                                                                       rdf:type owl:Class
                                                                                     ]
@@ -1286,42 +1279,6 @@ owl:Thing rdf:type owl:Class .
 #    Individuals
 #################################################################
 
-###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier-individuals.owl#Tsize1a
-:Tsize1a rdf:type owl:NamedIndividual .
-
-
-###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier-individuals.owl#Tsize2a
-:Tsize2a rdf:type owl:NamedIndividual .
-
-
-###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier-individuals.owl#Tsize2b
-:Tsize2b rdf:type owl:NamedIndividual .
-
-
-###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier-individuals.owl#Tsize3a
-:Tsize3a rdf:type owl:NamedIndividual .
-
-
-###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier-individuals.owl#Tsize3b
-:Tsize3b rdf:type owl:NamedIndividual .
-
-
-###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier-individuals.owl#Tsize4
-:Tsize4 rdf:type owl:NamedIndividual .
-
-
-###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier-individuals.owl#brain
-:brain rdf:type owl:NamedIndividual .
-
-
-###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier-individuals.owl#heart
-:heart rdf:type owl:NamedIndividual .
-
-
-###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier-individuals.owl#liver
-:liver rdf:type owl:NamedIndividual .
-
-
 ###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier.owl#Pt-stage1A
 tnm-lung-olivier:Pt-stage1A rdf:type owl:NamedIndividual ,
                                      tnm-lung-olivier:SmallUpperLeftLobeTumourWithoutMetastasis .
@@ -1363,9 +1320,45 @@ tnm-lung-olivier:Pt-stage4-liverMet rdf:type owl:NamedIndividual ,
                                     tnm-lung-olivier:hasPrimaryTumourIn "Liver" .
 
 
+###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier.owl#Tsize1a
+tnm-lung-olivier:Tsize1a rdf:type owl:NamedIndividual .
+
+
+###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier.owl#Tsize2a
+tnm-lung-olivier:Tsize2a rdf:type owl:NamedIndividual .
+
+
+###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier.owl#Tsize2b
+tnm-lung-olivier:Tsize2b rdf:type owl:NamedIndividual .
+
+
+###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier.owl#Tsize3a
+tnm-lung-olivier:Tsize3a rdf:type owl:NamedIndividual .
+
+
+###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier.owl#Tsize3b
+tnm-lung-olivier:Tsize3b rdf:type owl:NamedIndividual .
+
+
+###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier.owl#Tsize4
+tnm-lung-olivier:Tsize4 rdf:type owl:NamedIndividual .
+
+
+###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier.owl#brain
+tnm-lung-olivier:brain rdf:type owl:NamedIndividual .
+
+
+###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier.owl#heart
+tnm-lung-olivier:heart rdf:type owl:NamedIndividual .
+
+
 ###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier.owl#left
 tnm-lung-olivier:left rdf:type owl:NamedIndividual ,
                                tnm-lung-olivier:Side .
+
+
+###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier.owl#liver
+tnm-lung-olivier:liver rdf:type owl:NamedIndividual .
 
 
 ###  http://smi.stanford.edu/people/dameron/ontology/tnm-lung-olivier.owl#right
